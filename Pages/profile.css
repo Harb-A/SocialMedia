@@ -9,31 +9,28 @@ body {
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(30, 33, 36);
   height: 5vh;
 }
-.searchBar {
-  width: 50vh;
-  height: 70%;
-  border-radius: 7px;
-  border: none;
-  outline: none;
-  background-color: rgba(66, 69, 73);
+
+.title {
   color: white;
+  font-size: 5vh;
+  margin: 2%;
 }
+.icons {
+  height: 100%;
+  margin: 2%;
+}
+
 .profIcon {
-  height: 4vh;
-  width: 4vh;
+  height: 100%;
 }
-.msgIcon {
-  height: 4vh;
-  width: 4vh;
-}
+
 .camIcon {
-  height: 4vh;
-  width: 4vh;
+  height: 100%;
 }
 
 .detailsDiv {
