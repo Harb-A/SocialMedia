@@ -78,18 +78,54 @@ body {
   margin-top: 5%;
 }
 
-.imageRow {
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+}
+.pic {
+  width: 100%;
+  background-color: rgb(30, 33, 36);
+  border-radius: 10px;
+}
+.comment {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(54, 57, 62);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.util {
   display: flex;
   flex-direction: row;
-  width: 70vh;
-  justify-content: space-between;
-  height: auto;
-  margin: auto;
-  margin-top: 2vh;
+  justify-content: space-evenly;
 }
-.img {
-  width: 30%;
+
+.utilBtn {
+  background-color: rgb(30, 33, 36);
+  border: 1px solid rgb(114, 137, 218);
+  border-radius: 1vh;
+  width: 20%;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-.postt {
-  width: 100%;
+.utilBtn:focus {
+  background-color: rgb(114, 137, 218);
+  border: rgb(30, 33, 36);
+}
+
+.line {
+  border-color: rgb(114, 137, 218);
+}
+
+.commentSection {
+  overflow-y: scroll;
+  height: 20vh;
+  background-color: rgb(30, 33, 36);
 }
