@@ -1,0 +1,85 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+body {
+  background-color: rgb(54, 57, 62);
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 33, 36);
+  height: 5vh;
+}
+
+.title {
+  color: white;
+  font-size: 5vh;
+  margin: 2%;
+}
+.icons {
+  height: 100%;
+  margin: 2%;
+}
+.profIcon {
+  height: 100%;
+}
+.camIcon {
+  height: 100%;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+}
+.pic {
+  width: 100%;
+  background-color: rgb(30, 33, 36);
+  border-radius: 10px;
+}
+.comment {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(54, 57, 62);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.util {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.utilBtn {
+  background-color: rgb(30, 33, 36);
+  border: 1px solid rgb(114, 137, 218);
+  border-radius: 1vh;
+  width: 20%;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.utilBtn:focus {
+  background-color: rgb(114, 137, 218);
+  border: rgb(30, 33, 36);
+}
+
+.line {
+  border-color: rgb(114, 137, 218);
+}
+
+.commentSection {
+  overflow-y: scroll;
+  height: 20vh;
+  background-color: rgb(30, 33, 36);
+}
