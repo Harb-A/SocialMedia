@@ -1,0 +1,191 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+body {
+  background-color: rgb(54, 57, 62);
+  margin: 0;
+  height: 100%;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 33, 36);
+  height: 5vh;
+}
+
+.title {
+  border: none;
+  background-color: rgb(30, 33, 36);
+  font-size: 4vh;
+  border-bottom: 1px solid rgb(114, 137, 218);
+  margin-right: 2%;
+}
+.navs {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.navBtn {
+  border: none;
+  background-color: rgb(30, 33, 36);
+  font-size: 2vh;
+  border-bottom: 1px solid rgb(114, 137, 218);
+  margin-left: 1%;
+}
+.popup {
+  display: none;
+}
+
+.uploadForm {
+  background-color: rgb(30, 33, 36);
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 50%;
+  height: 60%;
+  margin: auto;
+  border: 1px solid rgb(114, 137, 218);
+  border-radius: 10px;
+}
+
+.uploadField {
+  width: 75%;
+  height: 10%;
+  border-radius: 7px;
+  background-color: rgba(66, 69, 73);
+  border: 1px solid rgb(114, 137, 218);
+  color: white;
+  outline: none;
+  font-size: 80%;
+}
+.formBtn {
+  width: 25%;
+  height: 5%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(114, 137, 218);
+  color: white;
+}
+
+.detailsDiv {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgb(30, 33, 36);
+  border-radius: 10px;
+}
+.pfpimg {
+  width: 30%;
+  height: 100%;
+}
+.pfp {
+  width: 90%;
+  height: 90%;
+}
+.details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.fullName {
+  font-size: 3vh;
+}
+.bio {
+  background-color: rgba(66, 69, 73);
+  border-radius: 10px;
+  width: 90%;
+  margin: 0;
+  height: 70%;
+  padding: 10% 0% 10% 0%;
+  overflow-y: hidden;
+}
+.editBtn {
+  width: 90%;
+  background-color: rgb(114, 137, 218);
+  border-radius: 10px;
+  border: none;
+  padding: 1% 0 1% 0;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+}
+.pic {
+  width: 100%;
+  background-color: rgb(30, 33, 36);
+  border-radius: 10px;
+}
+.comment {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(54, 57, 62);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.util {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.utilBtn {
+  background-color: rgb(30, 33, 36);
+  border: 1px solid rgb(114, 137, 218);
+  border-radius: 1vh;
+  width: 20%;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.utilBtn:focus {
+  background-color: rgb(114, 137, 218);
+  border: rgb(30, 33, 36);
+}
+
+.line {
+  border-color: rgb(114, 137, 218);
+}
+
+.commentSection {
+  overflow-y: scroll;
+  height: 20vh;
+  background-color: rgb(30, 33, 36);
+}
+
+.bioEditDiv {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+.bioEditForm {
+  width: 100%;
+}
+.bioEditField {
+  width: 90%;
+  color: black;
+}
+.bioBtn {
+  background-color: rgb(114, 137, 218);
+  border-radius: 5px;
+}
