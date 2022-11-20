@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script src="../Scripts/_register.js"></script>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../Stylesheets/register.css" />
+  </head>
+  <body>
+    <div class="centerDiv">
+      <div class="imageDiv"></div>
+
+      <div class="registerDiv">
+        <h1 class="title">Sign Up</h1>
+        <form class="signupForm" id="registerForm" action="_login.html">
+          <input
+            type="text"
+            placeholder="First Name"
+            class="signupField"
+            name="fname"
+            id="fname"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            class="signupField"
+            name="lname"
+            id="lname"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="signupField"
+            name="email"
+            id="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="signupField"
+            name="password"
+            id="password"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            class="signupField"
+            name="cpassword"
+            id="cpassword"
+            required
+          />
+          <button type="submit" class="formBtn">Sign Up</button>
+        </form>
+        <p class="text">
+          Already Have an account?
+          <a href="_login.html" class="link">Sign in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
