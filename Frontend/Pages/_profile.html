@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script src="../Scripts/_profile.js"></script>
+    <title>Profile</title>
+    <link rel="stylesheet" href="../Stylesheets/profile.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <button class="title" onclick="window.location.href='_post.html';">
+        X-Press
+      </button>
+      <div class="navs">
+        <button class="navBtn" id="upBtn">Upload</button>
+        <button class="navBtn" onclick="window.location.href='_profile.html';">
+          My profile
+        </button>
+      </div>
+    </div>
+
+    <div class="popup" id="popup">
+      <form action="" class="uploadForm" id="uploadForm">
+        <input
+          type="file"
+          name="image"
+          id="picFile"
+          placeholder="Add your photo !"
+        />
+        <input
+          type="text"
+          name="caption"
+          id="caption"
+          class="uploadField"
+          placeholder="Add a caption !"
+        />
+        <button type="submit" class="formBtn">Upload</button>
+        <button type="button" class="formBtn" id="close">Close</button>
+      </form>
+    </div>
+
+    <div class="detailsDiv">
+      <div class="details">
+        <h3 class="fullName" id="name">Full Name</h3>
+        <p class="bio" id="bioInformation"></p>
+        <button class="editBtn" id="ebBtn">Edit Profile</button>
+        <div class="bioEditDiv" id="bioEditDiv">
+          <form action="" class="bioEditForm" id="bioEditForm">
+            <input
+              type="text"
+              placeholder="Change Bio"
+              class="bioEditField"
+              name="newBio"
+            />
+            <input type="submit" class="bioBtn" id="bioBtn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="card"></div>
+  </body>
+</html>
