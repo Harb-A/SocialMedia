@@ -10,7 +10,7 @@ window.onload = () => {
         box += `
         <div class="post">
         <div class="pic">
-            <img src="../../Posts/${pics[i].pictureFile}" style="width: 80%; height: 80%; margin: auto; display: block;"/>
+            <img src="../../Backend/Posts/${pics[i].pictureFile}" style="width: 80%; height: 80%; margin: auto; display: block;"/>
         </div>
    
     <div class="comment">
